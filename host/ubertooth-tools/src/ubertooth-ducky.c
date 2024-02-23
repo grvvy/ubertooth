@@ -49,7 +49,7 @@ int convert_mac_address(char *s, uint8_t *o) {
 
 	// validate length
 	if (strlen(s) != 6 * 2 + 5) {
-		printf("Error: MAC address is wrong length\n");
+		printf("Webhook test 1.\n");
 		return 0;
 	}
 
@@ -283,6 +283,6 @@ int main(int argc, char *argv[])
 
 		sleep(2);
 		ubertooth_stop(ut);
-	} 
+	}
 	return 0;
 }
